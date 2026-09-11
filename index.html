@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spice Route | Andhra & South Indian Kitchen</title>
+  <meta name="description" content="A modern restaurant website showcasing Andhra, Rayalaseema, Telangana and Chinese specialties.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav container">
+    <a class="brand" href="#home"><span>SR</span><div><strong>Spice Route</strong><small>Andhra • South Indian Kitchen</small></div></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <div class="nav-links">
+      <a href="#menu">Menu</a><a href="#story">Our Story</a><a href="#ambience">Ambience</a><a href="#contact">Contact</a>
+    </div>
+    <a class="nav-cta" href="#menu">Explore Menu</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <p class="eyebrow">LAKSHMIPURAM • GUNTUR</p>
+    <h1>Bold regional flavours.<br><em>Warm hospitality.</em></h1>
+    <p class="hero-text">A vibrant table inspired by Andhra, Rayalaseema, Telangana and Chinese favourites — made for sharing.</p>
+    <div class="hero-actions"><a class="button primary" href="#menu">View Our Menu</a><a class="button ghost" href="#ambience">See the ambience ↓</a></div>
+  </div>
+  <div class="hero-note">Freshly prepared • Family friendly • Great for groups</div>
+</section>
+
+<section class="intro container">
+  <div><p class="eyebrow">A TASTE OF THE SOUTH</p><h2>Comfort food with a<br>regional <em>heartbeat.</em></h2></div>
+  <p>From fiery Andhra classics to rich biryanis and crowd-pleasing Chinese starters, our menu is designed to make choosing your next favourite easy.</p>
+</section>
+
+<section id="menu" class="menu-section">
+  <div class="container">
+    <div class="section-heading"><p class="eyebrow">WHAT'S COOKING</p><h2>Menu <em>highlights</em></h2><p>Start with these guest favourites. Replace prices and add the full menu whenever you're ready.</p></div>
+    <div class="filters">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="starters">Starters</button>
+      <button class="filter" data-filter="biryanis">Biryanis</button>
+      <button class="filter" data-filter="curries">Curries & Gravies</button>
+      <button class="filter" data-filter="soups">Soups & Rice</button>
+    </div>
+    <div class="menu-grid">
+      <article class="dish" data-category="starters"><div class="dish-image dragon"></div><div class="dish-body"><div class="dish-top"><h3>Dragon Chicken</h3><span class="veg-dot nonveg"></span></div><p>Crispy chicken tossed in a bold, spicy Indo-Chinese glaze.</p><strong class="price">₹ —</strong></div></article>
+      <article class="dish" data-category="starters"><div class="dish-image grilled"></div><div class="dish-body"><div class="dish-top"><h3>Chicken Shan Grilla</h3><span class="veg-dot nonveg"></span></div><p>Charred, juicy chicken with aromatic regional seasoning.</p><strong class="price">₹ —</strong></div></article>
+      <article class="dish" data-category="starters"><div class="dish-image fish"></div><div class="dish-body"><div class="dish-top"><h3>Apollo Fish</h3><span class="veg-dot nonveg"></span></div><p>Tender fish, crisp edges and a punchy, creamy-spicy finish.</p><strong class="price">₹ —</strong></div></article>
+      <article class="dish" data-category="starters"><div class="dish-image wings"></div><div class="dish-body"><div class="dish-top"><h3>Karimnagar Chicken Wings</h3><span class="veg-dot nonveg"></span></div><p>Finger-licking wings inspired by Telangana's bold flavours.</p><strong class="price">₹ —</strong></div></article>
+
+      <article class="dish featured" data-category="biryanis"><div class="dish-image biryani"></div><div class="dish-body"><span class="badge">MUST TRY</span><div class="dish-top"><h3>Special Kodi Biryani</h3><span class="veg-dot nonveg"></span></div><p>Boneless chicken layered with fragrant rice and signature spices.</p><strong class="price">₹ —</strong></div></article>
+      <article class="dish" data-category="biryanis"><div class="dish-image wingsbiryani"></div><div class="dish-body"><div class="dish-top"><h3>Karimnagar Kodi Wings Biryani</h3><span class="veg-dot nonveg"></span></div><p>Fragrant biryani paired with juicy, spiced chicken wings.</p><strong class="price">₹ —</strong></div></article>
+      <article class="dish" data-category="biryanis"><div class="dish-image paneer"></div><div class="dish-body"><div class="dish-top"><h3>Pachi Mirchi Paneer Biryani</h3><span class="veg-dot veg"></span></div><p>Paneer and aromatic rice with the fresh heat of green chilli.</p><strong class="price">₹ —</strong></div></article>
+      <article class="dish" data-category="biryanis"><div class="dish-image moglai"></div><div class="dish-body"><div class="dish-top"><h3>Moglai Chicken Biryani</h3><span class="veg-dot nonveg"></span></div><p>Rich, fragrant and gently spiced for a comforting finish.</p><strong class="price">₹ —</strong></div></article>
+
+      <article class="dish" data-category="curries"><div class="dish-image mutton"></div><div class="dish-body"><div class="dish-top"><h3>Veta Mamsam Kura</h3><span class="veg-dot nonveg"></span></div><p>A robust mutton curry celebrating traditional regional spice.</p><strong class="price">₹ —</strong></div></article>
+      <article class="dish" data-category="curries"><div class="dish-image kodi"></div><div class="dish-body"><div class="dish-top"><h3>Rayalaseema Kodi Kura</h3><span class="veg-dot nonveg"></span></div><p>Deeply flavoured chicken curry with a signature Rayalaseema kick.</p><strong class="price">₹ —</strong></div></article>
+      <article class="dish" data-category="curries"><div class="dish-image pulusu"></div><div class="dish-body"><div class="dish-top"><h3>Pandem Kodi Pulusu</h3><span class="veg-dot nonveg"></span></div><p>Naatu kodi simmered in a tangy, soulful Andhra-style gravy.</p><strong class="price">₹ —</strong></div></article>
+      <article class="dish" data-category="curries"><div class="dish-image butter"></div><div class="dish-body"><div class="dish-top"><h3>Paneer Butter Masala</h3><span class="veg-dot veg"></span></div><p>Soft paneer in a silky tomato-butter gravy with gentle spice.</p><strong class="price">₹ —</strong></div></article>
+
+      <article class="dish" data-category="soups"><div class="dish-image soup"></div><div class="dish-body"><div class="dish-top"><h3>Hot & Sour Soup</h3><span class="veg-dot veg"></span></div><p>A warming Chinese classic with tang, heat and fresh vegetables.</p><strong class="price">₹ —</strong></div></article>
+      <article class="dish" data-category="soups"><div class="dish-image manchow"></div><div class="dish-body"><div class="dish-top"><h3>Manchow Soup</h3><span class="veg-dot veg"></span></div><p>Spicy, aromatic soup finished with crunchy textures.</p><strong class="price">₹ —</strong></div></article>
+      <article class="dish" data-category="soups"><div class="dish-image rice"></div><div class="dish-body"><div class="dish-top"><h3>Neti Muddapappu Avakai Rice</h3><span class="veg-dot veg"></span></div><p>Comforting rice, dal and Andhra avakai flavours in one plate.</p><strong class="price">₹ —</strong></div></article>
+    </div>
+  </div>
+</section>
+
+
+<section class="experience">
+  <div class="container experience-inner">
+    <div><span class="experience-kicker">THE SPICE ROUTE EXPERIENCE</span><h2>One table.<br><em>Many traditions.</em></h2></div>
+    <div class="experience-points">
+      <div><b>01</b><span>Andhra fire</span><small>Bold, tangy and unmistakably local.</small></div>
+      <div><b>02</b><span>Rayalaseema soul</span><small>Deep spices and slow-cooked comfort.</small></div>
+      <div><b>03</b><span>Telangana character</span><small>Big flavour with a generous finish.</small></div>
+    </div>
+  </div>
+</section>
+<section id="story" class="story container">
+  <div class="story-photo"></div>
+  <div class="story-copy"><p class="eyebrow">OUR TABLE</p><h2>Made for long lunches, quick bites & <em>happy gatherings.</em></h2><p>Our menu brings together the flavours people love across Andhra Pradesh and the wider South — with a few Chinese favourites for everyone at the table.</p><div class="stats"><div><b>4</b><span>regional influences</span></div><div><b>15+</b><span>highlighted dishes</span></div><div><b>1</b><span>happy table</span></div></div></div>
+</section>
+
+<section id="ambience" class="ambience">
+  <div class="container">
+    <div class="section-heading light"><p class="eyebrow">COME IN, STAY AWHILE</p><h2>Our <em>ambience</em></h2><p>Replace these placeholders with your restaurant photographs in <code>assets/</code>.</p></div>
+    <div class="gallery"><div class="gallery-item g1"><span>Dining area</span></div><div class="gallery-item g2"><span>Signature table</span></div><div class="gallery-item g3"><span>Evening mood</span></div><div class="gallery-item g4"><span>Family seating</span></div></div>
+  </div>
+</section>
+
+<section id="contact" class="contact container">
+  <div><p class="eyebrow">VISIT US</p><h2>Come hungry.<br><em>Leave happy.</em></h2></div>
+  <div class="contact-card"><h3>Restaurant in Lakshmipuram</h3><p>📍 Lakshmipuram, Guntur, Andhra Pradesh</p><p>🕒 Add your opening hours here</p><div class="contact-actions"><a class="button primary" href="tel:+910000000000">Call to reserve</a><a class="button outline" href="#" onclick="return false;">Get directions</a></div><div class="order-links"><span>Order online:</span><a href="#" onclick="return false;">Zomato</a><a href="#" onclick="return false;">Swiggy</a></div></div>
+</section>
+</main>
+
+<footer><div class="container footer"><div><strong>Spice Route</strong><p>Andhra • Rayalaseema • Telangana • Chinese</p></div><p>© <span id="year"></span> Spice Route. All rights reserved.</p></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
